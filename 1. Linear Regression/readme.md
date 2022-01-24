@@ -20,6 +20,11 @@ Calculating deviation from desired output
 
     l = o-y
 
+Formula to implement Gradient descent
+
+<img width="445" alt="gradientdescent" src="https://user-images.githubusercontent.com/19811847/150733523-81be6ec6-507f-4a06-803e-a2b812315e39.PNG">
+
+
 Calculating gradient of loss w.r.t weight and bias using chain rule
 
     dw = np.dot(x.T, l)
