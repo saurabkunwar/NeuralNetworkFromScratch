@@ -7,9 +7,13 @@ Formula used along with their code
 Forward pass:
 
 <img width="176" alt="forward_pass" src="https://user-images.githubusercontent.com/19811847/150731940-b07a375f-2b78-4565-90a5-35b5208aa60f.PNG">
-
-    w = np.random.rand(x.shape[1], 1) #Initializing weight and biases
+    
+    #Initializing weight and biases
+    w = np.random.rand(x.shape[1], 1) 
     b = np.array([0.])
+    
+    # performing forward pass
+    o = np.dot(x, w) + b
 
 
 Calculating deviation from desired output
