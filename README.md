@@ -3,11 +3,11 @@ Building machine learning algorithms and neural networks from scratch
 
 Contents:
 1. Linear Regression
-2. Softmax Regression
-3. Multilayer preceptron
-4. Convolutional Neural Network
-5. RNN
-6. LSTM
-7. Attention Mechanism
-8. Transformers
-9. Bert
+2. Softmax Regression (in progress)
+3. Multilayer preceptron (in progress)
+4. Convolutional Neural Network (in progress)
+5. RNN (in progress)
+6. LSTM (in progress)
+7. Attention Mechanism (in progress)
+8. Transformers (in progress)
+9. Bert (in progress)
