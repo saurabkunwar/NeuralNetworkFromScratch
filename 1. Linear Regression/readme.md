@@ -27,10 +27,10 @@ Formula to implement Gradient descent
 
 Calculating gradient of loss w.r.t weight and bias using chain rule
 
-    dw = np.dot(x.T, l)
+    dw = np.dot(x.T, l) # Input needs to be transformed so that dot product's shape is compatible with weight
     db = l
 
 Performing gradient descent on weight and biases
 
     w -= ((lr * dw)/n)
-    b -= ((lr * np.sum(db))/n)
+    b -= ((lr * np.sum(db))/n) # summing individual biases and dividing it with total number to get average derivative of bias across all inputs
